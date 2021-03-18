@@ -1,0 +1,30 @@
+class ResponseCode {
+  static const APPROVED = "0000";
+  static const INVALID_AUTH = "0001";
+  static const INVALID_OTP = "0002";
+  static const EXPIRED_OTP = "0003";
+  static const REJECTED = "0004";
+  static const IN_PROGRESS = "0005";
+  static const DECLINED = "0006";
+  static const INACTIVATED_ACCOUNT = "0007";
+  static const APPROVAL_REQUIRED = "0008";
+  static const EXPIRED_CODE = "0009";
+  static const VIOLATED_CONSTRAINTS = "1000";
+  static const ALREADY_EXISTS_USERNAME = "1001";
+  static const ALREADY_EXISTS_MOBILE_NO = "1002";
+  static const ALREADY_EXISTS = "1009";
+  static const INVALID_EMAIL = "1003";
+  static const INVALID_ACCT = "1004";
+  static const INVALID_VOUCHER = "1005";
+  static const INVALID_CITIZEN_NO = "1006";
+  static const INVALID_AMOUNT = "1007";
+  static const INSUFFICIENT_BALANCE = "1008";
+  static const INVALID_CURRENCY = "1010";
+  static const INVALID_CARD = "1011";
+  static const INVALID_CODE = "1012";
+  static const UNKNOWN_SERVICE = "1013";
+  static const NOT_FOUND = "4000";
+  static const INTERNAL_ERROR = "8000";
+  static const BAD_REQUEST = "9000";
+  static const REQUEST_TIMEOUT = "0408 ";
+}
